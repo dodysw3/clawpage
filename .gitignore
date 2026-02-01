@@ -1,0 +1,13 @@
+# Ignore sensitive files
+*.token
+.env
+
+# Ignore workspace config files (optional)
+AGENTS.md
+BOOTSTRAP.md
+HEARTBEAT.md
+IDENTITY.md
+SOUL.md
+TOOLS.md
+USER.md
+memory/
