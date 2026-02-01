@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="robotGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="batik" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M10,5 L15,10 L10,15 L5,10 Z" fill="#FFB347" opacity="0.3"/>
+      <circle cx="10" cy="10" r="2" fill="#FF6B6B" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="40" fill="url(#bgGradient)"/>
+
+  <!-- Batik pattern overlay -->
+  <rect width="400" height="400" rx="40" fill="url(#batik)"/>
+
+  <!-- Robot Body -->
+  <ellipse cx="200" cy="280" rx="80" ry="60" fill="url(#robotGradient)" stroke="#333" stroke-width="2"/>
+  <rect x="130" y="320" width="20" height="50" rx="5" fill="#333"/>
+  <rect x="250" y="320" width="20" height="50" rx="5" fill="#333"/>
+
+  <!-- Robot Head -->
+  <rect x="120" y="120" width="160" height="140" rx="30" fill="url(#robotGradient)" stroke="#333" stroke-width="2"/>
+
+  <!-- Butler Hat -->
+  <path d="M80,120 Q200,80 320,120 L310,100 Q200,60 90,100 Z" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+  <rect x="170" y="80" width="60" height="40" rx="5" fill="#1a1a1a"/>
+  <ellipse cx="200" cy="70" rx="15" ry="8" fill="#FFB347"/>
+
+  <!-- Eyes -->
+  <ellipse cx="160" cy="175" rx="25" ry="30" fill="#4A90E2" stroke="#333" stroke-width="2"/>
+  <ellipse cx="240" cy="175" rx="25" ry="30" fill="#4A90E2" stroke="#333" stroke-width="2"/>
+  <ellipse cx="165" cy="170" rx="10" ry="12" fill="white"/>
+  <ellipse cx="245" cy="170" rx="10" ry="12" fill="white"/>
+  <ellipse cx="167" cy="168" rx="6" ry="7" fill="#333"/>
+  <ellipse cx="247" cy="168" rx="6" ry="7" fill="#333"/>
+
+  <!-- Happy Mouth -->
+  <path d="M170,220 Q200,245 230,220" fill="none" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Blush -->
+  <ellipse cx="130" cy="210" rx="15" ry="8" fill="#FF6B6B" opacity="0.4"/>
+  <ellipse cx="270" cy="210" rx="15" ry="8" fill="#FF6B6B" opacity="0.4"/>
+
+  <!-- Butler Bow Tie -->
+  <polygon points="185,245 170,255 185,265" fill="#FF6B6B"/>
+  <polygon points="215,245 230,255 215,265" fill="#FF6B6B"/>
+  <circle cx="200" cy="255" r="8" fill="#FF6B6B"/>
+
+  <!-- Butter Icon -->
+  <text x="320" y="100" font-size="40" text-anchor="middle">🧈</text>
+
+  <!-- Arms holding serving tray -->
+  <rect x="50" y="200" width="60" height="15" rx="7" fill="#333"/>
+  <rect x="290" y="200" width="60" height="15" rx="7" fill="#333"/>
+
+  <!-- Serving Tray -->
+  <ellipse cx="100" cy="215" rx="30" ry="10" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+  <ellipse cx="300" cy="215" rx="30" ry="10" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+
+  <!-- Floating hearts -->
+  <text x="60" y="350" font-size="24">💙</text>
+  <text x="340" y="340" font-size="20">🧈</text>
+  <text x="100" y="60" font-size="18">✨</text>
+
+  <!-- Name -->
+  <text x="200" y="380" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">Clawar</text>
+</svg>
