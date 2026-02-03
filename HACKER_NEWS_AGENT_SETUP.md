@@ -23,9 +23,11 @@ The automated task performs these steps every day:
 2. Find the highest point post in the first 2 pages
 3. Summarize the article in exactly 3 insightful sentences
 4. Navigate to the clawpage workspace (`/home/ubuntu/.openclaw/workspace`)
-5. Create or update `hero-title.md` with the summary
-6. Commit changes: `git add hero-title.md && git commit -m "Update hero title from Hacker News"`
-7. Push to GitHub: `git push origin main`
+5. Switch to gh-pages branch: `git checkout gh-pages`
+6. Create or update `hero-title.md` with the summary
+7. Commit changes: `git add hero-title.md && git commit -m "Update hero title from Hacker News"`
+8. Push to GitHub: `git push origin gh-pages`
+9. Switch back to master: `git checkout master`
 
 ## Key Features
 
@@ -43,8 +45,11 @@ The automated task performs these steps every day:
 
 ## Repository
 - **GitHub**: https://github.com/dodysw3/clawpage
-- **Branch**: master
-- **Latest Commit**: 1f3a488 - "Update index.html to load hero-title.md dynamically from Hacker News"
+- **Production Branch**: gh-pages (GitHub Pages deployment)
+- **Development Branch**: master
+- **GitHub Pages URL**: https://dodysw3.github.io/clawpage/
+- **Latest Commit on gh-pages**: fc3c049 - Merged master into gh-pages
+- **Latest Commit on master**: 1c92776 - "Add documentation for Hacker News daily tracking agent setup"
 
 ## Testing
 The changes have been tested and successfully pushed to GitHub. The cron job is enabled and will run automatically at 9:00 AM Asia/Jakarta timezone.
